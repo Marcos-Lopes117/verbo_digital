@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import logoImg from "/logo.png";
 
 function App() {
   const [messages, setMessages] = useState([
@@ -53,9 +54,9 @@ function App() {
       <header className="text-center mb-10 max-w-lg">
         <div className="mb-4">
           <img
-            src="public/logo.png"
+            src={logoImg}
             alt="Logo Verbo Digital"
-            className="w-60 h-60 mx-auto object-contain drop-shadow-md"
+            className="w-24 h-24 mx-auto object-contain drop-shadow-md"
           />
         </div>
         <h1 className="text-5xl font-extrabold text-[#3D2B1F] tracking-tight">
