@@ -169,7 +169,7 @@ Essa decisão está alinhada com os princípios bíblicos que você já conhece?
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
     // Use "gemini-1.5-flash" que é a versão estável mais recente
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
     const promptFinal = `
       ${sistema}
