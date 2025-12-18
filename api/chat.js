@@ -34,7 +34,7 @@ export default async function handler(req, res) {
     const genAI = new GoogleGenerativeAI(apiKey);
     
     // NOTA: Recomendo mudar para "gemini-1.5-flash" se o erro 500 persistir
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
     const promptFinal = `${sistema}\n\nExemplos de referência:\n${exemplos}\n\nPergunta do usuário:\n${textoFinal}`;
 
