@@ -53,7 +53,7 @@ function App() {
       <header className="text-center mb-10 max-w-lg">
         <div className="mb-4">
           <img
-            src="/logo.png"
+            src="public/logo.png"
             alt="Logo Verbo Digital"
             className="w-60 h-60 mx-auto object-contain drop-shadow-md"
           />
