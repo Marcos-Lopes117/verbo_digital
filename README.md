@@ -1,3 +1,5 @@
+## acesse https://marcos-lopes117.github.io/verbo_digital/ para testar
+
 ## 📖 Verbo Digital - Aconselhamento Bíblico & IA
 Desenvolver um chatbot vai além de configurar uma API de Inteligência Artificial; é sobre projetar uma jornada de interação. Durante o desenvolvimento do Verbo Digital, o foco principal foi a Engenharia de Prompt (Prompt Engineering): a arte de instruir a IA para que ela não apenas forneça informações, mas assuma uma identidade pastoral, respeitosa e biblicamente fundamentada.
 
